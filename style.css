@@ -1,8 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
 background-color: #DEB887;
+color:aliceblue;
+margin: 0px;
+margin-bottom: 100px; 
+}
 
+header{
+ border-bottom: solid 2px #FFDEAD;
+ margin: 20px;
+ font-size: 32px;
+ color: black;
 
 }
+
+
+
 
 
 .capa{
@@ -13,5 +31,13 @@ background-color: #DEB887;
 #instruentos{
       display: flex;
       padding-left: 200px; 
-
 }
+
+.videos{
+
+      display: flex;
+      overflow: auto;
+      gap: 10px;
+}
+
+
